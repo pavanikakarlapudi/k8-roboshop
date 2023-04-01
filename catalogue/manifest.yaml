@@ -9,7 +9,7 @@ metadata:
 spec:
   containers:
     - name: catalogue
-      imagePullPolicy: Always1
+      imagePullPolicy: Always
       image: pavanikakarlapudi/catalogue:k8
       resources:
         requests:
