@@ -167,7 +167,7 @@ function mongoConnect() {
     });
 }
 
-// mongodb connection retry loopl
+// mongodb connection retry loop
 function mongoLoop() {
     mongoConnect().then((r) => {
         mongoConnected = true;
